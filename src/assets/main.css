@@ -1,0 +1,33 @@
+@import "./base.css";
+@import "tailwindcss";
+#app {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.purple {
+	font-weight: 700;
+	text-decoration: none;
+	padding: 3px;
+	transition: 0.8s;
+}
+
+@media (hover: hover) {
+	.purple:hover {
+		transform: translateX(-30px);
+		font-weight: 700;
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		/* display: flex;
+		place-items: center; */
+	}
+
+	#app {
+		/* display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding: 0 2rem; */
+	}
+}
